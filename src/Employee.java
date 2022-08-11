@@ -14,10 +14,6 @@ public class Employee {
         return salary;
     }
 
-    public void getAllData() {
-        System.out.println("Salary for " + name + " " + surname + " is " + salary);
-    }
-
     @Override
     public String toString() {
         return "Employee{" +
